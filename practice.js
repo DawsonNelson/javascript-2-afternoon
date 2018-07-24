@@ -34,7 +34,8 @@ var favoriteThings ={
   food: 'Pizza',
   person: 'Chadathon',
   book: 'Count of Monte Cristo',
-  holiday: 'Christmas'
+  movie: 'Intersteller',
+  holiday: 'Christmas',
 
 }
 
@@ -44,8 +45,8 @@ var favoriteThings ={
   After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 */
 
-favoriteThings.car('Durango')
-favoriteThings.brand('Ford')
+favoriteThings['car'] = 'Durango'
+favoriteThings["brand"] = "Ford"
 
 
 /*
@@ -111,7 +112,11 @@ var user2 = {
   Make that change without modifying the original object code above.
 */
 
-//Code Here
+user2['name'] = 'Tyler S. McGinnis';
+user2['email'] = 'tyler.mcginnis@devmounta.in';
+
+
+
 
 
 

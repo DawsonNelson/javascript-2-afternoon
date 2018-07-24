@@ -14,7 +14,11 @@
   Then alert your name using dot notation.
 */
 
-//Code here
+let me ={
+  name:'Dawson',
+  age: 19,
+}
+alert.name
 
 
 
